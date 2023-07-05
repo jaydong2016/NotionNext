@@ -14,7 +14,7 @@ const CONFIG_HEXO = {
   MENU_ARCHIVE: true, // 显示归档
   MENU_SEARCH: true, // 显示搜索
 
-  POST_LIST_COVER: false, // 列表显示文章封面
+  POST_LIST_COVER: true, // 列表显示文章封面
   POST_LIST_COVER_HOVER_ENLARGE: false, // 列表鼠标悬停放大
 
   POST_LIST_COVER_DEFAULT: true, // 封面为空时用站点背景做默认封面
@@ -30,7 +30,7 @@ const CONFIG_HEXO = {
   WIDGET_ANALYTICS: false, // 显示统计卡
   WIDGET_TO_TOP: true,
   WIDGET_TO_COMMENT: true, // 跳到评论区
-  WIDGET_DARK_MODE: false, // 夜间模式
+  WIDGET_DARK_MODE: true, // 夜间模式
   WIDGET_TOC: true // 移动端悬浮目录
 }
 export default CONFIG_HEXO
