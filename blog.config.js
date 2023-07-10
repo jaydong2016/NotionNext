@@ -40,14 +40,25 @@ const BLOG = {
     'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap',
     'https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300&display=swap'
   ],
-FONT_SANS: [
-  // 无衬线字体
-  'Bitter',
-  'Arial',
-  'Helvetica',
-  'sans-serif',
-],
-
+  FONT_SANS: [
+    // 无衬线字体 例如'LXGW WenKai'
+    '"PingFang SC"',
+    '-apple-system',
+    'BlinkMacSystemFont',
+    '"Hiragino Sans GB"',
+    '"Segoe UI Emoji"',
+    '"Segoe UI Symbol"',
+    '"Segoe UI"',
+    '"Noto Sans SC"',
+    'HarmonyOS_Regular',
+    '"Microsoft YaHei"',
+    '"Helvetica Neue"',
+    'Helvetica',
+    '"Source Han Sans SC"',
+    'Arial',
+    'sans-serif',
+    '"Apple Color Emoji"'
+  ],
   FONT_SERIF: [
     // 衬线字体 例如'LXGW WenKai'
     'Bitter',
