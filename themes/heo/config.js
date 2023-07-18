@@ -1,5 +1,5 @@
 const CONFIG = {
-  HOME_BANNER_ENABLE: true,
+  HOME_BANNER_ENABLE: false,
 
   SITE_CREATE_TIME: '2021-09-21', // 建站日期，用于计算网站运行的第几天
 
@@ -112,7 +112,7 @@ const CONFIG = {
   ARTICLE_RECOMMEND: true, // 文章关联推荐
 
   WIDGET_LATEST_POSTS: true, // 显示最新文章卡
-  WIDGET_ANALYTICS: false, // 显示统计卡
+  WIDGET_ANALYTICS: true, // 显示统计卡
   WIDGET_TO_TOP: true,
   WIDGET_TO_COMMENT: true, // 跳到评论区
   WIDGET_DARK_MODE: true, // 夜间模式
